@@ -1,3 +1,10 @@
+#Angular Simple Infinite Scroller directive with RxJS Observables
+
+* https://codeburst.io/angular-2-simple-infinite-scroller-directive-with-rxjs-observables-a989b12d4fb1
+* [Github Repo](https://github.com/ashwin-sureshkumar/angular-infinite-scroller)
+* [Working Example](https://ashwin-sureshkumar.github.io/angular-infinite-scroller)
+
+
 # InfiniteScroller
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
