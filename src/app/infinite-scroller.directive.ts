@@ -26,11 +26,8 @@ const DEFAULT_SCROLL_POSITION: ScrollPosition = {
 export class InfiniteScrollerDirective implements AfterViewInit {
 
   private scrollEvent$;
-
   private userScrolledDown$;
-
   private requestStream$;
-
   private requestOnScroll$;
 
   @Input()
@@ -40,24 +37,18 @@ export class InfiniteScrollerDirective implements AfterViewInit {
   immediateCallback;
 
   @Input()
-  scrollPercent = 70;
+  scrollPercent = 75;
 
   constructor(private elm: ElementRef) { }
 
   ngAfterViewInit() {
-
     this.registerScrollEvent();
-
     this.streamScrollEvents();
-
     this.requestCallbackOnScroll();
-
   }
 
   private registerScrollEvent() {
-
     this.scrollEvent$ = Observable.fromEvent(this.elm.nativeElement, 'scroll');
-
   }
 
   private streamScrollEvents() {
