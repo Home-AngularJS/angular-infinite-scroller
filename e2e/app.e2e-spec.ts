@@ -1,6 +1,6 @@
 import { InfiniteScrollerPage } from './app.po';
 
-describe('infinite-scroller App', () => {
+describe('directive App', () => {
   let page: InfiniteScrollerPage;
 
   beforeEach(() => {

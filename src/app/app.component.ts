@@ -1,8 +1,8 @@
 import {Component, NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
-import { HackerNewsService } from './hackernews.service';
-import { InfiniteScrollerDirective } from './infinite-scroller.directive';
+import { HackerNewsService } from './layout/service/hackernews.service';
+import { InfiniteScrollerDirective } from './layout/directive/infinite-scroller.directive';
 
 @Component({
   selector: 'app-root',
