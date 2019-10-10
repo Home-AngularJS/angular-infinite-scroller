@@ -4,6 +4,7 @@
 * [Github Repo](https://github.com/ashwin-sureshkumar/angular-infinite-scroller)
 * [Working Example](https://ashwin-sureshkumar.github.io/angular-infinite-scroller)
 
+![screenshot](screenshot.png)
 
 # InfiniteScroller
 
